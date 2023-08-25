@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="js/index.js">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+	  <h2>Formulaire</h2>
+
+	  <form method="POST" action="sql_insert.php">
+	    <div class="form-group">
+	      <label for="firstname">Numéro de la carte</label>
+	      <input type="text" class="form-control" id="firstname" placeholder="Entrer le numéro" name="numero_carte">
+	    </div>
+	    <div class="form-group">
+	      <label for="age">Nom du titulaire de la carte</label>
+	      <input type="text" class="form-control" id="age" placeholder="Nom du titulaire" name="titulaire">
+	    </div>
+	    <div class="form-group">
+	      <label for="email">Date d'expiration</label>
+	      <input type="" class="form-control" id="date" placeholder="Date d'expiration" name="date">
+	    </div>
+	    <div class="form-group">
+	      <label for="numero">Code CVV/CVC</label>
+	      <input type="number" class="form-control" id="numero" placeholder="Enter numero" name="code_cvv">
+	    </div>
+	    <button type="submit" class="btn btn-success">Soumettre</button>
+	  </form>
+
+	</div>
+
+
+
+
+</body>
+</html>
