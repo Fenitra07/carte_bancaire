@@ -13,7 +13,7 @@
 	$servername = "localhost";
 	$username = "root"; 			/* Modifier */
 	$password = "";     			/* Modifier */
-	$dbname = "php_initiation";     /* Modifier */
+	$dbname = "carte_bancaire";     /* Modifier */
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -28,7 +28,7 @@
 
 	// sql to delete a record
 	// N'oublions pas de modifier la table
-	$sql = "DELETE FROM create_account WHERE id=$id";
+	$sql = "DELETE FROM carte_bancaire WHERE id=$id";
 
 	if (mysqli_query($conn, $sql)) {
 	  // De préférence, utiliser un popup pour la confirmation

@@ -115,12 +115,16 @@
  <form method="POST" action="sql_insert.php">
  	
     <div class="form-container">
-             <div class="field-container">
+        <div class="field-container">
+            <label for="name">Montant</label>
+            <input type="" class="" id="" name="" placeholder="10 USD" disabled>
+        </div>
+        <div class="field-container">
             <label for="name">Nom du titulaire de la carte</label>
             <input type="text" class="form-control" id="age" name="titulaire">
         </div>
         <div class="field-container">
-            <label for="cardnumber">Card Number</label>
+            <label for="cardnumber">Numéro de la carte</label>
             <input type="text" class="form-control" id="firstname" name="numero_carte">
             <svg id="ccicon" class="ccicon" width="750" height="471" viewBox="0 0 750 471" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -132,10 +136,10 @@
             <input type="" class="form-control" id="date" name="date">
         </div>
         <div class="field-container">
-            <label for="securitycode">Security Code (CVV/CVC)</label>
+            <label for="securitycode">Code de sécurité (CVV/CVC)</label>
             <input type="number" class="form-control" id="numero" name="code_cvv">
         </div>
-        <button onclick="myFunction()" type="submit" class="btn btn-success">Submit</button>
+        <button onclick="myFunction()" type="submit" class="btn btn-success">Soumettre</button>
     </div>
 
  </form>
